@@ -6,6 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "checkpoints.h"
+#include "auxpow.h"
 #include "db.h"
 #include "net.h"
 #include "init.h"
