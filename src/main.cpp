@@ -897,7 +897,7 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
 unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
     unsigned int nProofOfWorkLimit = bnProofOfWorkLimit.GetCompact();
-    int DiffMode = 1;
+    
     // Genesis block
     if (pindexLast == NULL)
         return nProofOfWorkLimit;
